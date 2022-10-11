@@ -1,0 +1,166 @@
+body {
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 60px;
+    margin: 10px;
+    width: 350px;
+    margin-bottom: 80px;
+    transition: all 0.3s ease-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+
+  .image {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  
+
+  .block {
+    height: 300px;
+    width: 15px;
+  }
+  h1 {
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 1px;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+  }
+
+  .back {
+    background-color: black;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 60px;
+    margin: 10px;
+    width: 350px;
+    margin-bottom: 80px;
+    transition: all 0.3s ease-out;
+    background-color: white;
+    
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+
+  .image {
+    max-width: 120px;
+    max-height: 120px;
+    align-items: center;
+    width: 70%;
+    border-radius: 40%;
+  }
+
+  .blue {
+    border-left: 3px solid #d36a09;
+  }
+
+  .green {
+    border-left: 3px solid #d36a09;
+  }
+
+  .red {
+    border-left: 3px solid #d36a09;
+  }
+
+  .block {
+    height: 300px;
+    width: 15px;
+  }
+  h1 {
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 1px;
+    color: #d36a09;
+  }
+
+  .linkimg{
+    width: 50px;
+  }
+  .linkimg:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  h2{
+   text-align: center;
+  }
+  
+
+
+  @media{
+    body{
+      flex-direction: column;
+    }
+    
+  }
+  @media (max-width:915px) {
+
+    .card green {
+      
+      width: 100%;
+  
+    }
+    .card blue{
+      width: 100%;
+    }
+    .card red{
+      width: 100%;
+    }
+  
+    .escolha select {
+      width: 100%;
+    }
+  
+    .selecionapassos input {
+      width: 100%;
+    }
+  
+    .criptografar button {
+      width: 100%;
+    }
+  
+    footer {
+      position: fixed;
+    }
+    
+  }
