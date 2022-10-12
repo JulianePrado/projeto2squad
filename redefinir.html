@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação De Conta</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<style>
+
+    body{
+       font-family: Arial, Helvetica, sans-serif;
+       background: #201b2c
+
+    }
+
+.box{
+    color: #201b2c;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    width: auto;
+}     
+fieldset{
+border: 3px solid #d36a09;
+
+}
+legend{
+border: 3px solid #201b2c;
+padding: 10px;
+text-align: center;
+background-color: #d36a09;
+border-radius: 8px;
+
+}
+.inputbox{
+position: relative;
+color: #fff
+
+}
+
+.inputUser{
+background: none;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+color: white;
+font-size: 15px;
+width: 100%;
+letter-spacing: 2px;
+}
+.labelinput{
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: .5px;
+
+
+}
+
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+
+top: -20px;
+font-size: 12px;
+color: #d36a09;
+
+}
+
+#data_nascimento{
+border: none;
+padding: 8px;
+border-radius: 10px;
+outline: none;
+font-size: 10px;
+font-family: 'Bebas Neue';
+font-style: oblique;
+
+}
+.info{
+background-image:linear-gradient(to right,rgb(31, 33, 36), rgb(46, 45, 48));
+width: 100%;
+border: none;
+padding: 15px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+
+}
+
+.info:hover{
+background-image:linear-gradient(to right,rgb(138, 84, 4), rgb(216, 132, 6));
+
+}
+.index{
+display: block;
+text-decoration: none;
+text-align: center;
+border: 1px solid black;
+border-radius: 30px;
+background: #d36a09;
+font-style: italic;
+font-size: 25px;
+padding: 20px 50px 20px;
+
+}
+.index:hover{
+    color: #fff;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="box">
+  <form action="">
+    <fieldset>
+    <legend><b>Redefifinição De Senha</b></legend>
+    <br><br>
+<div class="inputbox">
+    <input type="text" name="email"  class="inputUser" required>
+    <label for="email" class="labelinput">Email:</label><br>
+</div>
+<br><Br>
+<button class="info" type="submit">Enviar</button>
+    
+</fieldset>
+</form>
+</div>
+</body>
+</html>
+<br><br>
+<hr>
+<a class="index"href="index.html">Home</a>
+    
+</body>
+</html>
